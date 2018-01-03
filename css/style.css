@@ -1,0 +1,1006 @@
+/*********** for Body ************/
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  width: auto !important;
+  height: auto !important;
+  padding-top: 53px;
+/*    background: yellowgreen !important; */
+}
+
+.container, 
+.container-fluid {
+  width: 100%;
+  height: 100%;
+}
+
+/*********** for HOME NavBar ************/
+
+.navbar {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  padding-right: 5px;
+}
+
+.navbar li:hover {
+/*  background-color: darkgrey; */
+/*  border-bottom: 1px solid coral; */
+}
+
+.navbar-brand {
+  display:inline;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 8px;
+  top: -6px;
+}
+
+/*********** for HOME Showcase ************/
+
+#showcase {
+  margin: 0px;
+  border: 0px;	
+  height: 120px;
+  background-position: center center;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+#showcase h1 {
+  color: ghostwhite;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/*********** for HOME SideBar ********/
+
+#sidebar {
+  margin-right: 10px;
+	color: #555;
+	padding: 0 5px 5px 5px;
+}
+
+#sidebar-image {
+  border-radius: 20px;
+  padding: 2px;
+  border: 1.5px dotted #ED9597;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#sidebar li {
+  list-style-type: square;
+  color: coral;
+}
+#sidebar li span {
+  color: #555;
+}
+#sidebar li span:hover{
+  color: coral;
+}
+
+#sidebar a {
+  text-decoration: none;
+  list-style-type: square;
+  color: white;
+}
+
+/*********** for Row Showcase ************/
+
+.jumbotron {
+  padding: 0 10px 0 10px;
+  margin-left: 5px;
+  margin-right: 0px;
+}
+
+.row h2 {
+  font-size: 30px;
+}
+
+.row p {
+  font-size: 14px;
+}
+
+/*********** for FOOTER ***********/
+
+#main-footer {
+  width: auto;
+  height: auto;
+  margin: 0;
+  border: 0;
+  padding: 10px 0px 1px 0px;
+  background: #333 !important;
+  color: #fff !important;
+  text-align: center;
+}
+
+#home-body {
+  margin: 0;
+  border: 0;
+  width: 100% !important;
+  height: 100% !important;
+  color: white;
+  padding-top: 53px;
+}
+
+/*********** for HOME - About Me ********/
+
+.aboutme-1,
+.aboutme-2{
+  margin: 0;
+  border: 0;
+  width: auto;
+  height: 450px;
+  color: #fff;
+}
+.aboutme-1 {
+  padding: 40px 10px 40px 10px;
+  background-color: #007696;
+}
+.aboutme-2 {
+  padding: 100px 10px 33px 10px;
+  background-color: coral;
+}
+.aboutme-2 h3 {
+  color: #fff;
+}
+.aboutme-2 li {
+  border: 20;
+  color: #007696;
+  list-style-type: square;
+}
+.aboutme-img {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  padding: 2px;
+  border: 1px solid #fff;
+} 
+
+/*********** for HOME Theme ********/
+
+.theme {
+  margin: 0;
+  border: 0;
+  padding: 20px 20px 20px 2px;
+  width: auto !important;
+  height: auto !important;
+  background-color: black;
+  color:#fff;
+}
+
+.theme img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.theme img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+
+/*********** for ABOUT ********/
+
+#about-2 {
+  border: 0;
+  padding: 0;
+  color: grey;
+
+  background: url('../img/theme/desk.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#about-3,
+#about-4 {
+  margin: 0;
+  border: 0;
+  padding: 40px 20px 40px 20px;
+  color: #fff;
+}
+
+#about-3 a {
+  color: #fff;
+}
+#about-3 a:hover {
+  text-decoration: none !important;
+}
+
+#about-3 {
+  background-color: #007696;
+  text-align: right;
+  padding-right: 40px;
+}
+
+#about-4 {
+  background-color: #fff;
+  padding-left: 40px;  
+  color: #007696;
+}
+
+.about img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  padding: 2px;
+}
+#about-1 img {
+  border: 2px solid #fff;
+}
+#about-3 img {
+  border: 2px solid #fff;
+}
+#about-4 img {
+  border: 2px solid #007696;
+}
+
+/*********** for FAMILY ********/
+
+#family-body {
+  margin: 0;
+  border: 0;
+  width: auto;
+  height: auto;
+  color: white;
+  padding-top: 53px;
+}
+
+.family {
+  margin: 0;
+  border: 0;
+  padding: 30px;
+  background-color: black;
+  color:#fff;
+  text-align: center;
+}
+
+.family img {
+  padding: 20px 0px;
+  margin: auto;
+}
+
+.family h4 {
+  color: lightcoral;
+}
+
+.family img {
+  opacity: 0.8;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  border-radius: 200px;
+  padding: 4px;
+  border: 1px solid #fff;
+}
+.family img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+  border-radius: 0px;
+  padding: 4px;
+  border: 1px solid #fff;
+}
+
+/*********** for FRIEND ************/
+
+#friend-body {
+/*  background-color: black !important; */
+  margin: 0;
+  border: 0;
+  width: auto;
+  height: auto;
+  color: white;
+  padding-top: 53px;
+}
+
+#friend {
+  margin: 0px;
+  border: 0px;	
+  background-position: center center;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+#friend h1 {
+  font-size: 30px;
+  color: #007696;
+  font-weight: bold;
+  margin: auto auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center !important;
+	text-shadow: 2px 2px 4px darkgrey;
+
+}
+
+/*********** for PET *************/
+
+.pet-img {
+  margin: auto;
+  width: 130px;
+  height: 130px;
+  border-radius: 80px;
+  padding: 3px;
+  border: 5px solid coral;
+}
+
+#pet-1 {
+  margin: 0;
+  border: 0;	
+  padding: 20px 10px 60px 20px;
+  color: #fff;
+  text-indent: 30px; 
+  background-color: #007696;
+}
+
+#pet-2 {
+  margin: 0;
+  border: 0;	
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+}
+
+.pet-table {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.pet-table, .pet-table th, .pet-table td {
+  border: 1px solid lightgrey;
+  border-collapse: collapse;
+}
+
+.pet-table th, .pet-table td {
+  width: 110px;
+  height: 30px;
+  padding: 10px;
+ }
+
+.pet-table th {
+  background-color: #286b69;
+  color: white;
+  text-align: center;
+}
+
+.pet-table tr:nth-of-type(2) {
+  color: darkred;
+}
+.pet-table tr:nth-of-type(3) {
+  color: darkblue;
+}
+.pet-table tr:nth-of-type(4) {
+  color: blueviolet;
+}
+.pet-table tr:nth-of-type(5) {
+  color: forestgreen;
+}
+
+/*********** for TRAVEL ************/
+
+#travel-body {
+  margin: 0;
+  border: 0;
+  width: 100% !important;
+  height: 100% !important;
+  color: white;
+  padding-top: 53px;
+}
+
+.travel {
+  margin: 0;
+  border: 0;
+  padding: 20px 20px 20px 2px;
+  width: auto !important;
+  height: auto !important;
+  background-color: black;
+  color:#fff;
+}
+
+.travel-1 {
+  background-color: #333;
+}
+.travel-2 {
+  background-color: black;
+}
+.travel-3 {
+  background-color: #333;
+}
+.travel img {
+  opacity: 1.0;
+  filter: alpha(opacity=50); /* For IE8 and earlier */  
+  border-radius: 200px;
+  padding: 10px;
+  border: 2px solid #fff;
+}
+.travel img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+  border-radius: 2px;
+  padding: 10px;
+  border: 2px solid #fff;
+}
+
+/*********** for CAR ********/
+
+#car-body {
+  margin: 0;
+  width: 100% !important;
+  height: 100% !important;
+  padding-top: 53px !important;
+}
+#car-1,
+#car-2 {
+  margin: 0;
+  border: 0;
+  padding: 40px 20px 40px 20px;
+  color: #fff;
+}
+#car-1 {
+  background-color: #007696;
+  text-align: right;
+  padding-right: 40px;
+}
+#car-2 {
+  background-color: lightcoral;
+  padding-left: 40px;
+}
+
+.car-thumbnail-img {
+  width: 20%;
+  height: 20%;
+  margin: auto;
+  padding: 2px;
+/*  border: 2px solid lightgrey;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+
+/*********** for MUSIC *************/
+  
+#music-body {
+/*  background-color: black !important;*/
+  margin: 0;
+  border: 0;
+  width: auto;
+  height: auto;
+  color: white;
+  padding-top: 53px;
+}
+
+.music {
+  padding: 10px;
+}
+.music h1, .cd h1 {
+  font-weight: bold;
+}
+
+.member {
+  margin: 0;
+  border: 0;
+  width: auto;
+  height: auto;
+  background-color: grey;
+  color: black;
+  padding: 50px;
+}
+
+.member h1 {
+  color: black;
+  font-weight: bold;
+}
+
+.music h4, .music p {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  color: aquamarine;
+  padding: 20px 10px 20px 10px;
+}
+
+.member img {
+  margin: auto;
+  width: 150px;
+  height: 180px;
+  border-radius: 10px;
+  padding: 3px;
+  border: 3px solid black;
+}
+
+.cd img {
+  margin: auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  padding: 3px;
+  border: 3px solid grey;
+}
+
+.music img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.music img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+/*********** for MOVIE *************/
+
+#movie-body {
+  background-color: black !important;
+  margin: 0;
+  border: 0;
+  width: auto;
+  height: auto;
+  color: white;
+  padding-top: 53px;
+}
+
+#movie {
+  margin: 0;
+  border: 0;
+  padding: 10px;
+  color: #FFFFFF;
+}
+#movie h1 {
+  color: aquamarine;
+  font-weight: bold;
+}
+#movie h2 {
+  color: coral;
+}
+
+#fix-iron-man-left {
+  position: fixed;
+  top: 480px;
+  left: 10px;
+  width: 120px;
+  height: 190px;
+  text-decoration: none;
+}
+#fix-iron-man-right {
+  position: fixed;
+  top: 480px;
+  right: 10px;
+  width: 91px;
+  height: 188px;
+  text-decoration: none;
+}
+
+/*********** for RECIPEe ************/
+
+#recipe-body {
+  margin: 0;
+  border: 0;	
+  padding: 0;
+  width: auto !important;
+  height: auto !important;
+  padding-top: 53px;
+  background-color: black;
+}
+
+#accordion1 {
+  margin: 50px 50px;  
+  border: 0;	
+  padding: 0;
+  text-indent: 10px;
+}
+
+#accordion1 img {
+  padding: 2px;
+  border: 2px solid grey;
+  border-radius: 80px;
+}
+
+/*********** for CONTACT ********/
+
+#contact-1, #contact-2a, #contact-2b,
+#location, #map {
+  padding: 10px 10px;
+  margin: 0;
+  border: 0;
+  font-weight: bolder;
+}
+#contact-1, #contact-2a, #contact-2b {
+  background-color: #fff;
+  height: 200px;
+  color: #000;
+}
+#location, #map {
+/*  background-color: #007696; */
+  color: #333;
+}
+
+/*********************************/
+/*********** for BUTTON **********/
+
+.button {
+  margin-top: 20px;
+  border: #fff 1px solid;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #777676;
+  color: #fff;
+  text-decoration: none;
+}
+
+.car-button {
+  margin-top: 20px;
+  border: lightgrey 1px solid;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #333;
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: 2px 2px 4px darkgrey;
+}
+
+.car-button:hover, .car-button:active {
+  background: #777676;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.fix-top-button {
+  position: fixed;
+  top: 680px;
+  right: 0px;
+  border:#fff 1px solid;
+  border-radius: 100px;
+  padding: 7px 6px;
+  background: #777676;
+  color: #fff;
+  text-decoration: none;
+}
+
+.fix-top-button:hover {
+  background: coral;
+  color: #fff;
+  text-decoration:none;
+}
+
+/*********** for Special Effect - Snowing ************/
+
+.snow1 {
+  background-image: url('../img/snow.png'); 
+  background-repeat: repeat;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  animation: animateOne 10s infinite linear;
+}
+.snow2 {
+  background: url('../img/snow.png'); 
+  background-repeat: repeat;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  animation: animateTwo 10s infinite linear;
+  background-size: 300px;
+  filter: blur(1px);
+}
+.snow3 {
+  background: url('../img/snow.png'); 
+  background-repeat: repeat;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  animation: animateThree 10s infinite linear;
+  background-size: 800px;
+  filter: blur(2px);
+}
+
+/*********** for Special Effect - Raining ************/
+
+.rain1 {
+  background-image: url('../img/rain.png'); 
+  background-repeat: repeat;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  animation: animateOne 10s infinite linear;
+    background-size: 800px;
+  filter: blur(12px);
+}
+.rain2 {
+  background: url('../img/rain.png'); 
+  background-repeat: repeat;
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  animation: animateTwo 10s infinite linear;
+  background-size: 300px;
+  filter: blur(1px);
+}
+.rain3 {
+  background: url('../img/rain.png'); 
+  background-repeat: repeat;
+  width: 100%;
+  height: 650px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  animation: animateThree 10s infinite linear;
+  background-size: 800px;
+  filter: blur(2px);
+}
+
+/*********** for Special Effect - Snowing + Raining ************/
+
+@keyframes animateOne {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 100px 800px;
+  }
+}
+@keyframes animateTwo {
+  0% {
+    background-position: 0px -100px;
+  }
+  100% {
+    background-position: 0px 800px;
+  }
+}
+@keyframes animateThree {
+  0% {
+    background-position: 0px 100px;
+  }
+  100% {
+    background-position: 300px 800px;
+  }
+}
+
+/*********** for Special Effect - Carousel ********/
+
+#carousel1 {
+  border-top: 1px dashed white;
+  }
+
+.carousel {
+  height: 70% !important;
+}
+
+/*********** for Special Effect - Pulse ********/
+
+.family img {-webkit-animation: pulse 5s infinite; animation: pulse 5s infinite;}
+
+@-webkit-keyframes pulse {
+    0% {background:#f44336}
+    25% {background:#e91e63}
+    50% {background:#9c2780}
+    75% {background:#673ab7}
+    100% {background:#f44336}
+}
+
+@keyframes pulse {
+    0% {background:#f44336}
+    25% {background:#e91e63}
+    50% {background:#9c2780}
+    75% {background:#673ab7}
+    100% {background:#f44336}
+}
+
+/*********** for Special Effect - Gradient Background Animation ********/
+
+#showcase {
+    background: linear-gradient(132deg, #ec5218, #1665c1);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+
+/*********** for Special Effect - Bubbles ***********/
+
+#music-body {
+  background-color:black;
+  z-index:1;
+}
+
+.bubbles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    z-index: 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.bubbles li {
+    position: absolute;
+    list-style: none;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.15);
+    bottom: -100px;
+    -webkit-animation: square 20s infinite;
+    animation: square 20s infinite;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+.bubbles li:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    left: 20%;
+}
+.bubbles li:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    left: 40%;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-duration: 17s;
+    animation-duration: 17s;
+}
+.bubbles li:nth-child(3) {
+    width: 10px;
+    height: 10px;
+    left: 60%;
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-duration: 13s;
+    animation-duration: 13s;
+}
+.bubbles li:nth-child(4) {
+    width: 80px;
+    height: 80px;
+    left: 80%;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-duration: 22s;
+    animation-duration: 22s;
+}
+.bubbles li:nth-child(5) {
+    width: 50px;
+    height: 50px;
+    left: 50%;
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+    -webkit-animation-duration: 12s;
+    animation-duration: 12s;
+}
+
+@-webkit-keyframes square {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-1080px) rotate(630deg);
+        transform: translateY(-1080px) rotate(630deg);
+    }
+}
+
+@keyframes square {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-1080px) rotate(630deg);
+        transform: translateY(-1080px) rotate(630deg);
+    }
+}
+
+/*********** for TABLET *************/
+
+@media only screen and (max-width:768px){
+  #showcase {
+    height: 100px;
+  }
+  #showcase h1, .theme h1, .family h1, #friend h1, #pet-1 h2, #pet-2 h2, .travel h3, .music h1, #movie h1, #accordion1 h3, #services h1 {
+    font-size: 40px;
+  }
+  .about h4 {
+	font-size: 14px;
+  }
+  #sidebar-image{
+    margin: 0 auto;
+  }
+  #pet-2, #pet-3 {
+    margin: 0px;
+    padding: 5px;
+  }
+  #car-0 h1 {
+	font-size: 23px;
+	color: black;
+  }
+  
+  .camera_wrap {
+    height: 380px !important; /*Philip*/
+  }
+  
+  .carousel-caption h3 {
+	font-size: 20px;
+  }
+  .carousel-caption p {
+	font-size: 14px;
+  }
+  #accordion1 {
+  margin: 20x 0px;  
+  }
+}
+
+/*********** for MOBILE ************/
+
+@media only screen and (max-width:480px){
+  #showcase {
+      height: 100px;
+  }
+  #showcase h1, .theme h1, .family h1, #friend h1, #pet-1 h2, #pet-2 h2, .travel h3, .music h1, #movie h1, #accordion1 h3 {
+    font-size: 20px;
+  }
+  .about h4 {
+	font-size: 14px;
+  }
+  #sidebar-image{
+    margin: 0 auto;
+  }
+  #pet-2, #pet-3 {
+    margin: 0px;
+    padding: 5px;
+  }
+  #car-0 h1 {
+	font-size: 23px;
+	color: black;
+  }
+  
+.camera_wrap {
+    height: 224px !important; /*Philip*/
+  }
+  
+  .carousel-caption h3 {
+    font-size: 16px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+  }
+  #accordion1 {
+  margin: 20px 0px;  
+  }
+}
+
+
+/*********************************/

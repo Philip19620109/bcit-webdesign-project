@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<title>SHEN Design - Friend</title>
+    <meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="icon" type="image/x-icon" href="img/favicon.ico">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style2.css"> 
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/carousel-style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" integrity="sha256-00w68NO3TLuHjKRHJmjrrgJBDtG/6OhbJEu1gtHcsuo=" crossorigin="anonymous" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+		<script src="js/bootstrap.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+		
+		<link rel="stylesheet" href="BeautyCenter/css/style.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="BeautyCenter/css/zerogrid.css" type="text/css" media="all">
+		<link rel="stylesheet" href="BeautyCenter/css/responsive.css" type="text/css" media="all">
+		<link rel="stylesheet" type="text/css" href="3DImageSlider/css/slicebox.css" />
+		<link rel="stylesheet" type="text/css" href="3DImageSlider/css/custom.css" />
+		<script type="text/javascript" src="3DImageSlider/js/modernizr.custom.46884.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="3DImageSlider/js/jquery.slicebox.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+					///------------
+					$navDots = $( '#nav-dots' ).hide(),
+					$nav = $navDots.children( 'span' ),
+					////------------^
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+								$navArrows.show();
+								$navDots.show();
+								$shadow.show();
+							},
+							///---------
+							onBeforeChange : function( pos ) {
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+							},
+							////------------------^
+							orientation : 'r',
+							cuboidsRandom : true,
+							////------------------
+							disperseFactor : 30
+							//-----------------^
+						} ),
+						init = function() {
+							initEvents();
+						},
+						initEvents = function() {
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+								slicebox.next();
+								return false;
+							} );
+							$navArrows.children( ':last' ).on( 'click', function() {
+								slicebox.previous();
+								return false;
+							} );
+							
+							////-----------
+							$nav.each( function( i ) {
+								$( this ).on( 'click', function( event ) {
+									var $dot = $( this );
+									if( !slicebox.isActive() ) {
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									}
+									slicebox.jump( i + 1 );
+									return false;
+								} );
+							} );
+							////---------------^
+						};
+						return { init : init };
+				})();
+				Page.init();
+			});
+		</script>
+  </head>
+    
+  <body id="friend-body">
+    
+    <section id="page-top"></section>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      
+      <!--<div class="container-fluid">--> 
+      <div class="container-fluid">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img id="logo" src="img/shenlogo.png" alt="SHEN Logo" class="img-responsive"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="topFixedNavbar1">
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="family.html">Family</a></li>
+            <li class="active"><a href="friend.html">Friend<span class="sr-only">(current)</span></a></li>
+            <li><a href="pet.html">Pet</a></li>
+            <li><a href="travel.html">Travel</a></li>
+            <li><a href="car.html">Car</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="movie.html">Movie</a></li>
+            <li><a href="recipe.html">Recipe</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>	
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+
+        </div>
+      <!-- end container-fluid -->
+      </div>
+    <!-- end navbar-collapse -->
+    </nav>      
+    
+      
+    <div class="container">
+			
+			<br>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12" id="friend">
+          <header class="animated fadeInDown p-5">
+            <h1>Friend is a person who you know well and who you like a lot</h1>
+          </header>
+        </div>
+      </div>
+			<br><br>
+
+  
+			<div class="wrapper">
+				<ul id="sb-slider" class="sb-slider">
+					<li>
+						<a href="#" target="_blank"><img src="img/friend/slide1.jpg" alt="image1"/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="img/friend/slide2.jpg" alt="image2"/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="img/friend/slide3.jpg" alt="image3"/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="img/friend/slide4.jpg" alt="image4"/></a>
+					</li>
+					<li>
+						<a href="#" target="_blank"><img src="img/friend/slide5.jpg" alt="image5"/></a>
+					</li>
+          <li>
+						<a href="#" target="_blank"><img src="img/friend/slide6.jpg" alt="image6"/></a>
+					</li>
+          
+				</ul>
+				<div id="shadow" class="shadow">
+        </div>
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+                
+        <div id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+					<span></span>
+          <span></span>
+          <span></span>
+				</div>
+                
+			</div><!-- /wrapper -->
+    </div>   
+    
+    <br>
+    
+    <a class="fix-top-button" href="#page-top">Top</a> 
+    
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="container-fluid">
+        <p>Copyright &copy; 2017 SHEN Design. All rights reserved.</p>
+      </div>
+    </footer>
+      
+  </body>
+</html>

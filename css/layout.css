@@ -1,0 +1,247 @@
+﻿@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		4;
+	dw-num-cols-tablet:		8;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	25;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;
+	float: left;
+	display: block;
+}
+
+.fluidList {
+  list-style:none;
+  list-style-image:none;
+  margin:0;
+  padding:0;        
+}
+
+/* Mobile Layout: 480px and below. */
+  
+.gridContainer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 0%;
+	clear: none;
+	float: none;
+}
+#header {
+}
+#menu {
+	background-color:#CCC;
+	padding-top:8px;
+	padding-bottom:5px;
+}
+#content1 {
+width: 100%;
+}
+#content2 {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#content3 {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#main {
+	text-align: center;
+}
+.zeroMargin_mobile {
+margin-left: 0;
+}
+.hide_mobile {
+display: none;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+.gridContainer {
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 0%;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#header {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#menu {
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+#content1 {
+width: 48.7179%;
+}
+#content2 {
+width: 48.7179%;
+clear: none;
+margin-left: 2.5641%;
+}
+#content3 {
+width: 100%;
+clear: both;
+margin-left: 0;
+}
+#main {
+}
+.zeroMargin_tablet {
+margin-left: 0;
+}
+.hide_tablet {
+display: none;
+}
+}
+
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 768px) {
+
+.gridContainer {
+	width: 100%;
+	/*max-width: 1232px;*/
+	padding-left: 0%;
+	padding-right: 0%;
+	margin: auto;
+	clear: none;
+	float: none;
+	margin-left: auto;
+}
+#header {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#menu {
+	width: 100%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+#content1 {
+width: 32.2033%;
+}
+#content2 {
+width: 32.2033%;
+margin-left: 1.6949%;
+clear: none;
+}
+#content3 {
+width: 32.2033%;
+margin-left: 1.6949%;
+clear: none;
+}
+#footer {
+	line-height: 90px;
+	background-image: url(../images/footer-bg.jpg);
+	background-repeat: repeat-x;
+	text-align: center;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: #FFF;
+	font-size: 11pt;
+	margin-top: 20px;
+}
+#main {
+}
+.zeroMargin_desktop {
+margin-left: 0;
+}
+.hide_desktop {
+display: none;
+}
+}
+.gridContainer.clearfix #menu ul li a {
+	text-decoration: none;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 13pt;
+	color: #003;
+}
+.gridContainer.clearfix #menu ul li a:hover {
+	text-decoration: none;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 13pt;
+	color: #C1161E;
+}
+.gridContainer.clearfix #menu ul li img {
+	padding-bottom: 5px;
+}
+.gridContainer.clearfix #menu ul li {
+	list-style-type: none;
+	float: left;
+	width: 100px;
+}
+.gridContainer.clearfix #menu ul {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+.gridContainer.clearfix #content1 h2,.gridContainer.clearfix #content2 h2,.gridContainer.clearfix #content3 h2 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 13pt;
+	color: #F60;
+	background-image: url(../img/movie/movie-thumbnail.png); /*Philip*/
+	background-repeat: no-repeat;
+	line-height: 75px;
+	background-position: left center;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding-left: 45px; /*Philip*/
+	float: left;
+	padding-bottom: 25px;
+}
+.gridContainer.clearfix #content1 h3,.gridContainer.clearfix #content2 h3,.gridContainer.clearfix #content3 h3 {
+	margin-left: 60px; /*Philip*/
+	margin-top: -50px;
+	font-size: 11pt;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	float: left;
+	clear: both;
+}
+.gridContainer.clearfix #content1 p,.gridContainer.clearfix #content2 p,.gridContainer.clearfix #content3 p   {
+	clear: both;
+	float: left;
+	font-family: "Arial";
+	margin-left: 30px;
+	margin-right: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: left !important; /*Philip*/
+	font-size: 12pt !important; /*Philip*/
+}
+

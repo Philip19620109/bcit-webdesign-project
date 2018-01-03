@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example04"
+    version   = "1.0.0">
+
+<name>Philip BCIT Project</name>
+
+<description>
+Philip BCIT Web-Design Project.
+</description>
+
+<author href="http://students.bcitdev.com/A00545094/project/index.html" email="philip19620109@gmail.com">
+Philip Shen
+</author>
+<icon src="icon.png" gap:platform="android"/>
+</widget>
